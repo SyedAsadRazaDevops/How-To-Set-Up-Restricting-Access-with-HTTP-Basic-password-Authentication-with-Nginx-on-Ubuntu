@@ -99,7 +99,7 @@ sudo service nginx restart
 ```
 
 
-[LINK]:https://tonyteaches.tech/basic-authentication/
-[LINK]:https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
-[LINK]:https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-nginx-on-ubuntu-14-04
+https://tonyteaches.tech/basic-authentication/
+https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
+https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-nginx-on-ubuntu-14-04
 https://www.youtube.com/watch?v=_zoDkXyXrx4
