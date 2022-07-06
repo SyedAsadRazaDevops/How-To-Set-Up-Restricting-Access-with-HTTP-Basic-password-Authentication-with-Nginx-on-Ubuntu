@@ -45,7 +45,7 @@ cat /etc/nginx/.htpasswd
 Now that we have a file with our users and passwords in a format that Nginx can read, we need to configure Nginx to check this file before serving our protected content.
 
 Within this location block, use the auth_basic directive to turn on authentication and to choose a <name> to be displayed to the user when prompting for credentials. We will use the auth_basic_user_file directive to point Nginx to the password file we created:
-```rubay
+```ruby
 location / {
         try_files $uri $uri/ =404;
         auth_basic "Restricted Content";
@@ -53,7 +53,7 @@ location / {
     }
 ```
 For laravel nginx configration; use this.
-```rubay
+```ruby
 
 server {
     
@@ -102,3 +102,4 @@ sudo service nginx restart
 [LINK]:https://tonyteaches.tech/basic-authentication/
 [LINK]:https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
 [LINK]:https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-nginx-on-ubuntu-14-04
+https://www.youtube.com/watch?v=_zoDkXyXrx4
